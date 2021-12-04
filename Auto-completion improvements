@@ -1,0 +1,12 @@
+After testing all of the data from the misspelling.csv file, I found that with some of the words the
+program worked really well, and with other words it did not work well at all. After testing the words
+from the list on all different counts varying from 3-7, I found that for about 25% of the mis-spelled
+words that I tried, in the lists that were returned the correct spelling of the word could not be
+found at all. For the remaining 75% of the mis-spelled words, the correct spelling was found in at
+least one of the returned lists. Of those 75%, I found that on average I would see the correct spelling
+of the word in about 40% of the lists that were returned for one word. In my implementation, in order to
+try and get the correct spelling of the input tokens we could use data for the most commonly mis-spelled
+words in the implementation instead of the most frequently used words. If data with the correct spelling
+of the most commonly mis-spelled words was input into the program, we could use that data along with an
+input count that is only plus or minus 2 of the mis-spelled input word to almost definitely get the
+correct word.
